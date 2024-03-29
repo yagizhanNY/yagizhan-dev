@@ -1,0 +1,12 @@
+[
+    {
+        "imageUrl": "chatgpt",
+        "projectUrl": "https://github.com/yagizhanNY/openai-chatgpt3-clone",
+        "description": "Open source ChatGPT UI."
+    },
+    {
+        "imageUrl": "siemens-ix",
+        "projectUrl": "https://github.com/yagizhanNY/SiemensIXBlazor",
+        "description": "The Blazor port of official @siemens-ix library."
+    }
+]
