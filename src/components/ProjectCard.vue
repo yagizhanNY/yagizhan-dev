@@ -11,7 +11,7 @@ defineProps<ProjectCardProps>();
 <template>
     <a class="w-60 h-48 mb-4 border shadow-md transition hover:duration-300 hover:ease-in-out hover:-translate-y-1.5" :href="project.projectUrl">
         <div class="flex min-h-24 min-w-24 justify-center items-center">
-            <img :src="`/src/assets/img/${project.imageUrl}.png`" :alt="project.imageUrl">
+            <img :src="`/${project.imageUrl}.png`" :alt="project.imageUrl">
         </div>
         <p class="mx-2">{{ project.description }}</p>
     </a>
